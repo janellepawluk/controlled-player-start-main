@@ -1,9 +1,9 @@
 //Credit card prompt
-let creditcard = prompt("What is your credit card number?");
+let creditcard = prompt("Enter a fake credit card number");
 
 if (creditcard >= 1111111111111111 && creditcard <= 9999999999999999) {
   document.getElementById("output").innerHTML =
-    "Keep Mario safe from the flying squares! Have Fun Playing!";
+    "Keep Mario safe from the flying squares! Use the arrow keys on your keyboard. Sorry, you can't play on your phone :( Have Fun Playing!";
 
   // Canvas Set Up
   let cnv = document.getElementById("my-canvas");
